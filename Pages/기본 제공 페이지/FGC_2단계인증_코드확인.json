@@ -1,0 +1,189 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      }
+    },
+    "Count": 35
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "36": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 58
+  },
+  "Values": {
+    "12,22": "2단계 보안인증 확인",
+    "14,21": "인증앱에 표시된 6자리 인증코드를 입력하세요.",
+    "17,21": "인증코드",
+    "23,21": "확인"
+  },
+  "AttachInfos": {
+    "5,21": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_light.png"
+      }
+    },
+    "18,21": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LargeRoundCorner_LightTheme_Normal3",
+        "WaterMark": "",
+        "ForguncyAttribute": "MFA_VerifyCode_Inputbox"
+      },
+      "DataValidationInfo": {
+        "NumberType": 6,
+        "CompareParamType": 2,
+        "IgnoreBlank": false,
+        "FirstParamValue": "6",
+        "ErrorMessage": "6자리 인증코드를 입력하세요."
+      }
+    },
+    "21,21": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "이 장치에서 다시 묻지 않음",
+        "Style": 1,
+        "ForguncyAttribute": "MFA_VerifyCode_TrustDevice"
+      }
+    },
+    "23,21": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "확인",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_RoundCorner_Style2",
+        "ForguncyAttribute": "MFA_VerifyCode_SubmitButton"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 6,
+        "WordWrap": true
+      },
+      {
+        "Foreground": 4
+      },
+      {
+        "Formatter": 7,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 15",
+        "Center",
+        "Text 1 35",
+        "Left",
+        "Top",
+        "@"
+      ]
+    },
+    "CellStyles": {
+      "12,22": 0,
+      "14,21": 1,
+      "17,21": 2,
+      "18,21": 3,
+      "21,21": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "5,21,4,16",
+    "23,21,2,16",
+    "12,22,2,14",
+    "18,21,2,16",
+    "14,21,2,16",
+    "21,21,1,16"
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "ForguncyPictureName": "PCLoginBackground",
+      "Stretch": 3,
+      "ForguncyPictureSourceType": 2,
+      "Name": "BackgroundPicture0",
+      "Size": "1120,605"
+    },
+    {
+      "StyleInfo": {
+        "CornerRadius": 8.4375,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Name": "BackgroundPicture1",
+      "Location": "380,220",
+      "Size": "360,305"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "2단계 보안인증 확인",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//iGjoK2xnW/OUWkn2j0/zpDQHZBbDcEBnaMt+Jd9w59V3IagZenTMbrXTfy0320XsWp+OR+GGygKTs8coQhGrAiz/DaRuwHzywWTC1GGgTljT6qOHKi1h57+Zevn7HmvaNurUv45489hnROs3nofTYFnsbWIOixEdXtv8IdZwRKkldi2VXPZ2glwPFF775KZIkpSE+2CgzSdpnWTWHC9mJ7s9Xim2dViQJGLhZe6iqeeccCUisZBbQh9iwBHEf9KhTLrgDdKg/VVaB2u7T0YTFqLYxQ7ANzERTfI0/H4/o9Bd7Z5Nu3wvodLBs9DCdpjXgn/6xbBDHDRL04r5SpysWq7g4AvMaxEMP1MsgSKwHYczX+Qw5gujThGQ3Ga5H6yxGgicmpN9LSRHcUinlHnGYNwx9kTDyba29SPtxJ6KkPqDY+HUZi+eNJ7Cbv5vJpd9XNgZlPFb3mTFfiI4l1qsG2dRbD7QBIJw8IeNLjRXUXN4UALz3A3/LjmCqwUkyw0e0Cw7CqKPBVbr15sm4pOu2BfevXEe1gEbt/SCQXZPzeizEC3aZy8sivmFP5f6vf7vP1u7romLT1LBVz7/Hn0l/WwbKkrMcRxdCVcCIotzO60KwrMsOh06MQy+izKR8d330p8Xfkeho2TCfwNFUbJcizfsOA+TsfolvcRgD11U/zveWshSobG3LdRoHN1Ytn6tgLnV5G83EwKZP6D/fxTq5xQSYqX1yPx69KdlgOb3+Vv9Y89R7nhZhr8AkjYsUf5Yx47XtU+zScEP/XgK9ph1tWMGD08etmr/n8xrOMjRqek7UnAt+U4URLTBfiXklqLdz0kKheW3+UVWq5tOYg7mFHjB/KpIPTh2rt0MKmueKkQZtiX+HEMB1euCz2V/7yYUEoYpd6ZHP27jGjvoCUh8Iw==|920

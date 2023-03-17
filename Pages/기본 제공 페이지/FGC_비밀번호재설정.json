@@ -1,0 +1,208 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 7.0
+        }
+      }
+    },
+    "Count": 29
+  },
+  "Cols": {
+    "Count": 47
+  },
+  "Values": {
+    "5,12": "비밀번호 재설정",
+    "8,14": "쉽게 예상할 수 있는 비밀번호는 피해야 합니다",
+    "11,19": "*",
+    "12,18": "새 비밀번호",
+    "16,19": "*",
+    "17,18": "새 비밀번호 확인",
+    "21,25": "재설정",
+    "21,30": "취소"
+  },
+  "AttachInfos": {
+    "11,22": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ForguncyAttribute": "ResetPassword_NewPassword"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "16,22": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "ForguncyAttribute": "ResetPassword_ConfirmPassword"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "21,25": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "재설정",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
+        "ForguncyAttribute": "ResetPassword_Button"
+      }
+    },
+    "21,30": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "취소"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 37.333332061767578,
+        "Foreground": 0
+      },
+      {
+        "Foreground": 0
+      },
+      {
+        "Foreground": 1,
+        "VerticalAlignment": 2,
+        "Underline": null,
+        "Strikethrough": null
+      },
+      {
+        "Formatter": 3
+      },
+      {
+        "FontSize": 14.0,
+        "Foreground": 4,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontSize": 14.0,
+        "FontWeight": 6
+      },
+      {
+        "FontSize": 14.0,
+        "FontWeight": 6,
+        "Foreground": 7,
+        "HorizontalAlignment": 8
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 25",
+        "#FFFF0000",
+        "Top",
+        "@",
+        "Text 1 35",
+        "Right",
+        "Bold",
+        "Accent 1 0",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "5,12": 0,
+      "8,14": 1,
+      "11,19": 2,
+      "11,22": 3,
+      "12,18": 4,
+      "16,19": 2,
+      "16,22": 3,
+      "17,18": 4,
+      "21,25": 5,
+      "21,30": 6
+    },
+    "SheetStyle": {
+      "FontFamily": 9,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "5,12,3,23",
+    "11,22,3,12",
+    "16,22,3,12",
+    "21,25,2,5",
+    "21,30,2,5",
+    "8,14,2,20",
+    "11,19,2,1",
+    "16,19,2,1"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Background 1 -5",
+        "Stroke": "Background 1 -25",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "3f3472c7-d700-4840-869e-07837142e4f7.png",
+      "Location": "200,80",
+      "Size": "540,360"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "FGC_유저마스터페이지",
+    "Title": "비밀번호 재설정",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//6scW4Cq94I6yMhQgqFoGSBaQbcBWtYfqXmC24DAnHxD5c39Pj9z9cKTvvNBXERBiFvtsg0PKbAW5MRuR0ysuBx+IipEX8DrBqzR6scyAqRjPkH/eRwwfr0Jp9/E61SQ0J2XrIu1+F7Yk/4FRfCEtIS51UYobdyjcJ+EYNdkN6A/ReTv1xmKuNMrHDQo6vskDcFHAMI6fewqGYpAfBfH0Sit2Dr8oqyu3jz1ulvIbAoi6pKAyFqoxUbhFuNYk2iZ3iV4Xj5PWPEXPXTJB+Y8sRLVA7+6XWP1n2nciF1kA+lvrv7ypAYcQrDlyz0uFqto9fMkFrSEtk1q5XmpYcZQ5IGCGqCbJEQnVi28OI3NXdoIik4i6M/SzHwhboOqgR8AUfdPwCHl/pQNbQwphU3zNw2aCzYITQet7zDTmxYng00tIRdwo4ftM0KwAdlAEfsMmtl/Ni9PtgNrtU7r7b17IMEtpdrXqLkioiJJaRNMW6SEb3OY3aHI+4ygLx1IGuX/BMhIkjAjuleVe0k2z1kzXTHh0nIy6r5Mg9xoydXcVGZ+OIOZQCXs70DTvfht07eIwN06LGAY2PIu9uq9HbN2ZEQdDixY7sEQ/m4ZhzjcsMUn1OfLsAe6oCa/xrbwujihD+4txj/bk29vB1rOp/LeosCsewZSKzsLuhKv/+LdRVl0KoyhrDCx31AvFfHziLeWxFaCyJJ8vHXfCJTMxeF1DmEPAhCkMLueoDDtonr6ADf3GgW0j7KrWLx6aZyqRL//TzPNgu8g9/8t9wtnBFCv2RW44XY/mJxrnai993uMM2ra2TbtuVgmZsa9Ljmi7AOulCIUbYNHmi8P/okM+jok4RuEDeGgIMLwlTDU5ejO2NbHoYt8j51wMgrqCx6V+X6BGFZNuTRb2ikmo5eJXCs18HA==|920

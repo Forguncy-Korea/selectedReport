@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationSettings>
+  <IntegrateWithOtherApplication>
+    <Password>KiM*$*L#0V)&amp;</Password>
+  </IntegrateWithOtherApplication>
+  <StartDateFiscalYear>4</StartDateFiscalYear>
+  <StartPage>실적증명서 신청</StartPage>
+  <UserServicePort>40697</UserServicePort>
+  <WebSitePort>20771</WebSitePort>
+</ApplicationSettings>

@@ -1,0 +1,205 @@
+{
+  "Rows": {
+    "Count": 47
+  },
+  "Cols": {
+    "Count": 101
+  },
+  "Values": {
+    "1,3": "GrapeCity",
+    "1,11": "선택한 항목으로 보고서 출력하기"
+  },
+  "AttachInfos": {
+    "1,3": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "Text": "GrapeCity",
+        "ClickMode": 1
+      }
+    },
+    "1,11": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "실적증명서 신청",
+            "PassValues": [],
+            "DeleteCachedQuery": true
+          }
+        ],
+        "Text": "선택한 항목으로 보고서 출력하기",
+        "ClickMode": 1
+      }
+    },
+    "4,12": {
+      "IsPlaceHolderCell": true
+    },
+    "5,2": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "스타일1",
+        "Items": [
+          {
+            "Text": "증명서신청",
+            "IconPath": "Application/008_add_file_3.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "실적증명서 신청",
+                "IconPath": "Application/031_edit_file_2.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "실적증명서 신청",
+                    "PassValues": [],
+                    "DeleteCachedQuery": true
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          }
+        ],
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 16.0,
+            "Bold": true,
+            "Height": 45.0,
+            "Width": 200.0,
+            "IconHeight": 15.0,
+            "IconWidth": 15.0
+          },
+          {
+            "FontSize": 13.333333333333332,
+            "Bold": false,
+            "Height": 32.0,
+            "Width": 200.0,
+            "IconHeight": 15.0,
+            "IconWidth": 15.0
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 26.666666666666664,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "Underline": false
+      },
+      {
+        "FontSize": 18.666666666666664,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "TextIndent": 5,
+        "HorizontalAlignment": 2,
+        "Underline": false
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "Background": 4
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Background 1 0",
+        "Left",
+        "Background 1 -15",
+        "Accent 1 -25",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 3
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,3": 0,
+      "1,11": 1,
+      "4,11": 2,
+      "5,11": 2,
+      "6,11": 2,
+      "7,11": 2,
+      "8,11": 2,
+      "9,11": 2,
+      "10,11": 2,
+      "11,11": 2,
+      "12,11": 2,
+      "13,11": 2,
+      "14,11": 2,
+      "15,11": 2,
+      "16,11": 2,
+      "17,11": 2,
+      "18,11": 2,
+      "19,11": 2,
+      "20,11": 2,
+      "21,11": 2,
+      "22,11": 2,
+      "23,11": 2,
+      "24,11": 2,
+      "25,11": 2,
+      "26,11": 2,
+      "27,11": 2,
+      "28,11": 2,
+      "29,11": 2,
+      "30,11": 2,
+      "31,11": 2,
+      "32,11": 2,
+      "33,11": 2,
+      "34,11": 2,
+      "35,11": 2,
+      "36,11": 2,
+      "37,11": 2,
+      "38,11": 2,
+      "39,11": 2,
+      "40,11": 2,
+      "41,11": 2,
+      "42,11": 2,
+      "43,11": 2,
+      "44,11": 2,
+      "45,11": 2,
+      "46,11": 2
+    },
+    "RowStyles": {
+      "0": 3,
+      "1": 3,
+      "2": 3,
+      "3": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 5
+    }
+  },
+  "Spans": [
+    "5,2,42,9",
+    "1,3,2,7",
+    "4,12,43,89",
+    "1,11,2,15"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon"
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//58BXbimXIXhBNFH2wJrNkBe9nLx35Wc7zVUPaE9bKStIXILM4x7KjPKzZ2kKaeTyaB5TZRVzKcJ+SOEdxyTXMHVyH0a7LxMAlzoyDE5h9PR/QG8/zqzsIOtGW4Wazo7wORl29zdREuVTCLNa31cJwwG9uqj4rxNrGROyn3GMDeE7LYhXsbq7kkgT/6kpvNz86pcrOcH9FTRD6c1MTvsx4kHZtelMFl3FS65kyPK0kypcbLkisPc5nStGDXTzlGo7rhYrBKF1jmWJn4ZIe6I21mIN7uHWmNtJp0V9T++IDug9O/n6Ys6HGzZJV/MLncOSwzrIQveYynK9Yc4saU9HL4yKBHepzTyUnf0Ye2/pHF8HIGtzooRaB19ff3NUg8AesW1lpOzwJDitaB8cNUjlguWvKTAbgP2vfKQvYsEamCEyNvr37r47j0NHH6IrR9nugKWz6CSlkd+Uss8At0hBhKJ20tOcqP8l9QckCL808LAidQB+TyPsNLBCvOTE8kFROllmWkDnxZfaw8cfpLbKCgt1IurcyeYlZX7S9seqLzVfJ7Vh91WAA0RUhlGtf1WKEKVi25XThqBWnvxRqOzfPU1u8e5+jWgVOmjRpD214YRHjK25C5aRXH2iAez752vxo/NxQeVSXgr9cSHpgXkhCFOgxx4uggLONsilfSViSUjbd+Qo4ZQBWOELDRYV06gobF5pbtLGzr2pxXeot8W+vVUbsBxLUhOOFxsQGbu5AvfgLBXZIqIXhlJvF9GLq1XYjzPjH8WhPnestrBpeO32orYbFMlM+AbUKfkGhfZAFH0IooDWBkxq8VldFWFKs3O+VO9imG7ipTAHVObvPAakEDjH8H7WsppCcZlK3rbWC8FZnfujE0EZar3IQNkF7bdAup5pjtpHeBVXJxk8HXnvIg==|920
