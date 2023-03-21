@@ -112,16 +112,7 @@
   },
   {
     "ModuleName": "PCPage/실적증명서 신청",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-03-17T16:21:19.3499784+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\실적증명서 신청.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "MasterPCPage/FGC_유저마스터페이지",
