@@ -1,13 +1,16 @@
 {
   "Rows": {
-    "Count": 47
+    "Count": 40
   },
   "Cols": {
-    "Count": 101
+    "Count": 95
   },
   "Values": {
     "1,3": "GrapeCity",
-    "1,11": "선택한 항목으로 보고서 출력하기"
+    "1,11": "선택한 항목으로 보고서 출력하기",
+    "1,26": "Gannt 프로젝트 파일 다운로드",
+    "1,36": "만드는 방법",
+    "1,42": "포건시 빌더 다운로드"
   },
   "AttachInfos": {
     "1,3": {
@@ -29,6 +32,43 @@
           }
         ],
         "Text": "선택한 항목으로 보고서 출력하기",
+        "ClickMode": 1
+      }
+    },
+    "1,26": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "Text": "Gannt 프로젝트 파일 다운로드",
+        "ClickMode": 1
+      }
+    },
+    "1,36": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "URL": "https://dev.grapecity.co.kr/bbs/board.php?bo_table=forguncy_bntips&wr_id=9",
+            "PassValues": [],
+            "IsOpenInNewTab": true
+          }
+        ],
+        "Text": "만드는 방법",
+        "ClickMode": 1
+      }
+    },
+    "1,42": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "URL": "https://www.grapecity.co.kr/download/forguncy",
+            "PassValues": [],
+            "IsOpenInNewTab": true
+          }
+        ],
+        "Text": "포건시 빌더 다운로드",
         "ClickMode": 1
       }
     },
@@ -111,10 +151,19 @@
         "Underline": false
       },
       {
+        "Background": 3,
+        "FontFamily": 4,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "Formatter": 5,
+        "HorizontalAlignment": 6,
+        "Underline": false
+      },
+      {
         "BorderRight": 0
       },
       {
-        "Background": 4
+        "Background": 3
       }
     ],
     "Types": {
@@ -122,78 +171,80 @@
         "Bold",
         "Background 1 0",
         "Left",
-        "Background 1 -15",
         "Accent 1 -25",
+        "나눔스퀘어 네오 OTF Bold",
+        "[AUTO]General",
+        "Center",
+        "Background 1 -15",
         "Body"
       ],
       "Borders": [
         {
-          "Color": 3
+          "Color": 7
         }
       ]
     },
     "CellStyles": {
       "1,3": 0,
       "1,11": 1,
-      "4,11": 2,
-      "5,11": 2,
-      "6,11": 2,
-      "7,11": 2,
-      "8,11": 2,
-      "9,11": 2,
-      "10,11": 2,
-      "11,11": 2,
-      "12,11": 2,
-      "13,11": 2,
-      "14,11": 2,
-      "15,11": 2,
-      "16,11": 2,
-      "17,11": 2,
-      "18,11": 2,
-      "19,11": 2,
-      "20,11": 2,
-      "21,11": 2,
-      "22,11": 2,
-      "23,11": 2,
-      "24,11": 2,
-      "25,11": 2,
-      "26,11": 2,
-      "27,11": 2,
-      "28,11": 2,
-      "29,11": 2,
-      "30,11": 2,
-      "31,11": 2,
-      "32,11": 2,
-      "33,11": 2,
-      "34,11": 2,
-      "35,11": 2,
-      "36,11": 2,
-      "37,11": 2,
-      "38,11": 2,
-      "39,11": 2,
-      "40,11": 2,
-      "41,11": 2,
-      "42,11": 2,
-      "43,11": 2,
-      "44,11": 2,
-      "45,11": 2,
-      "46,11": 2
+      "1,26": 2,
+      "1,36": 2,
+      "1,42": 2,
+      "4,11": 3,
+      "5,11": 3,
+      "6,11": 3,
+      "7,11": 3,
+      "8,11": 3,
+      "9,11": 3,
+      "10,11": 3,
+      "11,11": 3,
+      "12,11": 3,
+      "13,11": 3,
+      "14,11": 3,
+      "15,11": 3,
+      "16,11": 3,
+      "17,11": 3,
+      "18,11": 3,
+      "19,11": 3,
+      "20,11": 3,
+      "21,11": 3,
+      "22,11": 3,
+      "23,11": 3,
+      "24,11": 3,
+      "25,11": 3,
+      "26,11": 3,
+      "27,11": 3,
+      "28,11": 3,
+      "29,11": 3,
+      "30,11": 3,
+      "31,11": 3,
+      "32,11": 3,
+      "33,11": 3,
+      "34,11": 3,
+      "35,11": 3,
+      "36,11": 3,
+      "37,11": 3,
+      "38,11": 3,
+      "39,11": 3
     },
     "RowStyles": {
-      "0": 3,
-      "1": 3,
-      "2": 3,
-      "3": 3
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4
     },
     "SheetStyle": {
-      "FontFamily": 5
+      "FontFamily": 8
     }
   },
   "Spans": [
-    "5,2,42,9",
+    "5,2,35,9",
     "1,3,2,7",
-    "4,12,43,89",
-    "1,11,2,15"
+    "4,12,36,83",
+    "1,11,2,15",
+    "1,42,2,8",
+    "1,36,2,6",
+    "1,26,2,10"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon"
@@ -202,4 +253,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//58BXbimXIXhBNFH2wJrNkBe9nLx35Wc7zVUPaE9bKStIXILM4x7KjPKzZ2kKaeTyaB5TZRVzKcJ+SOEdxyTXMHVyH0a7LxMAlzoyDE5h9PR/QG8/zqzsIOtGW4Wazo7wORl29zdREuVTCLNa31cJwwG9uqj4rxNrGROyn3GMDeE7LYhXsbq7kkgT/6kpvNz86pcrOcH9FTRD6c1MTvsx4kHZtelMFl3FS65kyPK0kypcbLkisPc5nStGDXTzlGo7rhYrBKF1jmWJn4ZIe6I21mIN7uHWmNtJp0V9T++IDug9O/n6Ys6HGzZJV/MLncOSwzrIQveYynK9Yc4saU9HL4yKBHepzTyUnf0Ye2/pHF8HIGtzooRaB19ff3NUg8AesW1lpOzwJDitaB8cNUjlguWvKTAbgP2vfKQvYsEamCEyNvr37r47j0NHH6IrR9nugKWz6CSlkd+Uss8At0hBhKJ20tOcqP8l9QckCL808LAidQB+TyPsNLBCvOTE8kFROllmWkDnxZfaw8cfpLbKCgt1IurcyeYlZX7S9seqLzVfJ7Vh91WAA0RUhlGtf1WKEKVi25XThqBWnvxRqOzfPU1u8e5+jWgVOmjRpD214YRHjK25C5aRXH2iAez752vxo/NxQeVSXgr9cSHpgXkhCFOgxx4uggLONsilfSViSUjbd+Qo4ZQBWOELDRYV06gobF5pbtLGzr2pxXeot8W+vVUbsBxLUhOOFxsQGbu5AvfgLBXZIqIXhlJvF9GLq1XYjzPjH8WhPnestrBpeO32orYbFMlM+AbUKfkGhfZAFH0IooDWBkxq8VldFWFKs3O+VO9imG7ipTAHVObvPAakEDjH8H7WsppCcZlK3rbWC8FZnfujE0EZar3IQNkF7bdAup5pjtpHeBVXJxk8HXnvIg==|920
+}//S3yqYejZyE+H/QN5hHGOGUXrcw0M2owwBb3yzVLvYbeRTfcOUw4kOz0IS0c6oJjiR7+Nz6c2/EoQyBdp1PYZPNy9ADdaGm78wm5v+5++jCEMREx49j+1wNIvur44q5Wow8pF9YY/j57G8mnlUnASW6Wf5WDJF1hlH4mIEWstfEYdy3FrX9XF6OykYQwgoByuR8HJeHT3mR8vRmGBd/SO8CuUmqgOVzDCOyKCPVLTj7u+hcDGoxu7pZx/PSAioCtogy9Sktz6FeA+Smr+I5bFz8vxzi4mBfe9Et7yrWLzxGUGkRmHOutsLVzjDJNubkOLgyMK0hTeSR9swFYOENCprTLSjdru6jWGthQEdlbIq1/5MBfPyBclQFL11SruZwMKGxZhqbaADu6r6scsVj4dJjcM2ci2fncYmykBkyqEzJV5YNltO/9dyy4F1G3rQpBzCxz/9ZDZTy2OlCSwMYdzLaUF9nvjx2zqK+uSqbrrPkH3lfAC6MfgLtuVojlqzx5UPZYErvDw43MSbjXmVLjRrMfnIB/3RLXutTiL3Io5Tm8Y+YxPMa821YF+Q5qA2CGEJhmhW+zRvMcIXhrskdGf+9nRMBXH7EJd9WMj4K0GO/6yzFwXjFPT/HyokEArvgQyyn0MQ0KKkFkaFyl31E0W9XX9JNOLpmbFMQItYaUnvYdfgudVkz+Wrq8gc0JLEX7bVFd3yKYaMF4RuMBjUPM5jibzCMDTjOyDEoa2DdJUxAz+OgNvruBTsC+Jb5vHWFMeZVAVIuw5AyKVX6skFJQ5igRt9yKGQ/qPLZIhB+h+whQUapg0MGVR4N1nJqCB26ES421E9aCxK/qCsraviZSOguI8H04Oxe5iWth7oSfrMgvDqbWo14J2vgO9ehY1UXZk2P8xXuPjBG/L7cl+16j17Q==|920
