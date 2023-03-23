@@ -189,7 +189,17 @@
   },
   {
     "ModuleName": "RdlReport/실적증명서",
-    "ModuleType": 18
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-03-23T13:21:24.2245714+09:00",
+    "ModuleType": 18,
+    "ToRemoveFiles": [
+      "Reports\\실적증명서.json",
+      "Reports\\실적증명서.rdlx"
+    ]
   },
   {
     "ModuleName": "ApplicationSetting",
