@@ -1,17 +1,47 @@
 [
   {
     "ModuleName": "Table/거래처테이블",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-03-23T13:05:46.8547129+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\거래처테이블.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/실적테이블",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-03-23T13:05:46.8547129+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\실적테이블.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/TimeCheck",
+    "State": 2,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-03-23T13:05:46.850635+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\TimeCheck.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
@@ -124,11 +154,29 @@
   },
   {
     "ModuleName": "TaskScheduler/비활성화",
-    "ModuleType": 16
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-03-23T13:05:46.8547129+09:00",
+    "ModuleType": 16,
+    "ToRemoveFiles": [
+      "SchedulerTasks\\비활성화.json"
+    ]
   },
   {
     "ModuleName": "TaskScheduler/활성화",
-    "ModuleType": 16
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-03-23T13:05:46.8547129+09:00",
+    "ModuleType": 16,
+    "ToRemoveFiles": [
+      "SchedulerTasks\\활성화.json"
+    ]
   },
   {
     "ModuleName": "RdlReport/실적증명서",
