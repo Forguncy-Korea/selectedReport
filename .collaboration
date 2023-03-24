@@ -236,15 +236,5 @@
   {
     "ModuleName": "Upload",
     "ModuleType": 26
-  },
-  {
-    "ModuleName": "PCPage/페이지1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-03-23T13:34:37.1724027+09:00",
-    "ModuleType": 1
   }
 ]
