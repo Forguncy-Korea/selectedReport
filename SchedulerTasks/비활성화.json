@@ -1,0 +1,35 @@
+{
+  "Enabled": false,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.OneTimeScheduleTrigger, ServerDesignerCommon",
+      "StartDateTime": 44973.427777777775,
+      "ScheduleRunInDebugServer": false
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "TimeCheck",
+      "ShowConfirm": false,
+      "ConfirmText": "데이터를 업데이트하시겠습니까?",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "TimeCheck",
+          "ColumnName": "ID"
+        },
+        "Value": "1",
+        "Id": "df2b4bc5-e12b-4c43-afc7-35a3abbe5cf2"
+      },
+      "UpdateValues": [
+        {
+          "ColumnName": "Check",
+          "Value": "disabled"
+        }
+      ]
+    }
+  ],
+  "Name": "비활성화"
+}
