@@ -8,7 +8,7 @@
   "Values": {
     "1,3": "GrapeCity",
     "1,11": "선택한 항목으로 보고서 출력하기",
-    "1,26": "Gannt 프로젝트 파일 다운로드",
+    "1,26": "프로젝트 파일 다운로드",
     "1,36": "만드는 방법",
     "1,42": "포건시 빌더 다운로드"
   },
@@ -38,7 +38,7 @@
     "1,26": {
       "CellType": {
         "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
-        "Text": "Gannt 프로젝트 파일 다운로드",
+        "Text": "프로젝트 파일 다운로드",
         "ClickMode": 1
       }
     },
@@ -253,4 +253,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//S3yqYejZyE+H/QN5hHGOGUXrcw0M2owwBb3yzVLvYbeRTfcOUw4kOz0IS0c6oJjiR7+Nz6c2/EoQyBdp1PYZPNy9ADdaGm78wm5v+5++jCEMREx49j+1wNIvur44q5Wow8pF9YY/j57G8mnlUnASW6Wf5WDJF1hlH4mIEWstfEYdy3FrX9XF6OykYQwgoByuR8HJeHT3mR8vRmGBd/SO8CuUmqgOVzDCOyKCPVLTj7u+hcDGoxu7pZx/PSAioCtogy9Sktz6FeA+Smr+I5bFz8vxzi4mBfe9Et7yrWLzxGUGkRmHOutsLVzjDJNubkOLgyMK0hTeSR9swFYOENCprTLSjdru6jWGthQEdlbIq1/5MBfPyBclQFL11SruZwMKGxZhqbaADu6r6scsVj4dJjcM2ci2fncYmykBkyqEzJV5YNltO/9dyy4F1G3rQpBzCxz/9ZDZTy2OlCSwMYdzLaUF9nvjx2zqK+uSqbrrPkH3lfAC6MfgLtuVojlqzx5UPZYErvDw43MSbjXmVLjRrMfnIB/3RLXutTiL3Io5Tm8Y+YxPMa821YF+Q5qA2CGEJhmhW+zRvMcIXhrskdGf+9nRMBXH7EJd9WMj4K0GO/6yzFwXjFPT/HyokEArvgQyyn0MQ0KKkFkaFyl31E0W9XX9JNOLpmbFMQItYaUnvYdfgudVkz+Wrq8gc0JLEX7bVFd3yKYaMF4RuMBjUPM5jibzCMDTjOyDEoa2DdJUxAz+OgNvruBTsC+Jb5vHWFMeZVAVIuw5AyKVX6skFJQ5igRt9yKGQ/qPLZIhB+h+whQUapg0MGVR4N1nJqCB26ES421E9aCxK/qCsraviZSOguI8H04Oxe5iWth7oSfrMgvDqbWo14J2vgO9ehY1UXZk2P8xXuPjBG/L7cl+16j17Q==|920
+}//3fBUwIWw9c9ByM2Q3yNdOtPbqmtFd2funhHGuTjboDtvREYH13nbHlqZuJ+QZCi/EX8/v1QHOn6XoGM7ewB2eH+VygupkHMjQnjumIYFlDpSWOY9ImrfZcQshCgq2HeBWvWa35ydojCm1oOCBJikgCnq2qIn8Zk/3Hr4UVVgdO0RGlbAs1m+bSxTSGHNDswYcSVBw0rLPWEd0Jo1hHIxOJzcSgK6L/985I+/y2+XGb58idav8hCc5NNU9aO9ytoiDiYVgQokvvM0gnFM34SQsHiVhizysqkOMefReOibas+xdFpNnlNDdhmvv2qH2KoCVlfV63yqpwcVpu/MPpnkna1GLRbkSx1LpcZJ8fAv9h+X5ptz9fn5ihXmtaqeP4yL0hoGT3b7+U44M392trYi+L59jP1X4TWX7FhQU8AnVS/WtEoPy7xEIRgEFSAwN9EaLx1UwTTT5CwZ3sd/eGGT4MQZCSnoGg3KNIZxEq7rSg43WOX3yqwkQNSPKKY+Bo+xnsM225gcAsBeGj+s2vnsZu/woV1OZk1jz9131fiKGTAXotGY4Vf7GgdNDhpzZUcJCuK4IGllift+u6FY4VorMVRoCvGpho3j1Jso4SiRZle7jDAfpkW2MCKdqG31eRz7gnP2Ehkp4+Pff2Dj43ojm9A6dlA+lSbvUahMQllbTB8kVniFQWkNq+YGLhmLrZTVHMcZl+zsrROhDWsduq8PSaFlXsuiIMdc05UXwQ1G+Sgx6FPenIJMTyZ/7krU6Z3V+yxhlHL4HLz55LHJwOY/mfPii3jSnZ/WqekvxAZWBMBtO7jEVQKzp5Z3q4YTYcfsD6FQ6WsmGvdYFXkumKAXE3Fgq8BUBGvtA+erUjKKir4tkwiipWnVgakO6iXzq9YpwKK21pRXiqIbyrpWul3fjw==|920
