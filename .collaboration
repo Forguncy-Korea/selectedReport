@@ -1,47 +1,12 @@
 [
   {
     "ModuleName": "Table/거래처테이블",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-03-23T13:05:46.8547129+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\거래처테이블.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/실적테이블",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-03-23T13:05:46.8547129+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\실적테이블.json",
-      "ForguncyDB.sqlite3"
-    ],
-    "ExclusiveType": 0
-  },
-  {
-    "ModuleName": "Table/TimeCheck",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-03-23T13:05:46.850635+09:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\TimeCheck.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -142,16 +107,7 @@
   },
   {
     "ModuleName": "PCPage/실적증명서 신청",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-03-23T13:09:43.9869552+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\실적증명서 신청.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "MasterPCPage/FGC_유저마스터페이지",
@@ -162,44 +118,8 @@
     "ModuleType": 3
   },
   {
-    "ModuleName": "TaskScheduler/비활성화",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-03-23T13:05:52.2358575+09:00",
-    "ModuleType": 16,
-    "ToRemoveFiles": [
-      "SchedulerTasks\\비활성화.json"
-    ]
-  },
-  {
-    "ModuleName": "TaskScheduler/활성화",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-03-23T13:05:57.5523974+09:00",
-    "ModuleType": 16,
-    "ToRemoveFiles": [
-      "SchedulerTasks\\활성화.json"
-    ]
-  },
-  {
     "ModuleName": "RdlReport/실적증명서",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-03-23T13:21:24.2245714+09:00",
-    "ModuleType": 18,
-    "ToRemoveFiles": [
-      "Reports\\실적증명서.json",
-      "Reports\\실적증명서.rdlx"
-    ]
+    "ModuleType": 18
   },
   {
     "ModuleName": "ApplicationSetting",
