@@ -82,9 +82,9 @@
         "Items": [
           {
             "Text": "증명서신청",
-            "IconPath": "Application/008_add_file_3.svg",
             "SelectedIconColor": "Background 1",
             "SelectedIconColorUseItemColor": true,
+            "IconColor": null,
             "IconColorUseItemColor": true,
             "IsOldMenuPath": false,
             "CanVisitRoleList": [
@@ -137,37 +137,39 @@
   "StyleDatas": {
     "Styles": [
       {
+        "FontFamily": 0,
         "FontSize": 26.666666666666664,
-        "FontWeight": 0,
-        "Foreground": 1,
+        "FontWeight": 1,
+        "Foreground": 2,
         "Underline": false
       },
       {
         "FontSize": 18.666666666666664,
-        "FontWeight": 0,
-        "Foreground": 1,
+        "FontWeight": 1,
+        "Foreground": 2,
         "TextIndent": 5,
-        "HorizontalAlignment": 2,
+        "HorizontalAlignment": 3,
         "Underline": false
       },
       {
-        "Background": 3,
-        "FontFamily": 4,
-        "FontWeight": 0,
-        "Foreground": 1,
-        "Formatter": 5,
-        "HorizontalAlignment": 6,
+        "Background": 4,
+        "FontFamily": 5,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "Formatter": 6,
+        "HorizontalAlignment": 7,
         "Underline": false
       },
       {
         "BorderRight": 0
       },
       {
-        "Background": 3
+        "Background": 4
       }
     ],
     "Types": {
       "Strs": [
+        "나눔스퀘어 네오 OTF Heavy",
         "Bold",
         "Background 1 0",
         "Left",
@@ -180,7 +182,7 @@
       ],
       "Borders": [
         {
-          "Color": 7
+          "Color": 8
         }
       ]
     },
@@ -234,7 +236,7 @@
       "3": 4
     },
     "SheetStyle": {
-      "FontFamily": 8
+      "FontFamily": 9
     }
   },
   "Spans": [
@@ -253,4 +255,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//3fBUwIWw9c9ByM2Q3yNdOtPbqmtFd2funhHGuTjboDtvREYH13nbHlqZuJ+QZCi/EX8/v1QHOn6XoGM7ewB2eH+VygupkHMjQnjumIYFlDpSWOY9ImrfZcQshCgq2HeBWvWa35ydojCm1oOCBJikgCnq2qIn8Zk/3Hr4UVVgdO0RGlbAs1m+bSxTSGHNDswYcSVBw0rLPWEd0Jo1hHIxOJzcSgK6L/985I+/y2+XGb58idav8hCc5NNU9aO9ytoiDiYVgQokvvM0gnFM34SQsHiVhizysqkOMefReOibas+xdFpNnlNDdhmvv2qH2KoCVlfV63yqpwcVpu/MPpnkna1GLRbkSx1LpcZJ8fAv9h+X5ptz9fn5ihXmtaqeP4yL0hoGT3b7+U44M392trYi+L59jP1X4TWX7FhQU8AnVS/WtEoPy7xEIRgEFSAwN9EaLx1UwTTT5CwZ3sd/eGGT4MQZCSnoGg3KNIZxEq7rSg43WOX3yqwkQNSPKKY+Bo+xnsM225gcAsBeGj+s2vnsZu/woV1OZk1jz9131fiKGTAXotGY4Vf7GgdNDhpzZUcJCuK4IGllift+u6FY4VorMVRoCvGpho3j1Jso4SiRZle7jDAfpkW2MCKdqG31eRz7gnP2Ehkp4+Pff2Dj43ojm9A6dlA+lSbvUahMQllbTB8kVniFQWkNq+YGLhmLrZTVHMcZl+zsrROhDWsduq8PSaFlXsuiIMdc05UXwQ1G+Sgx6FPenIJMTyZ/7krU6Z3V+yxhlHL4HLz55LHJwOY/mfPii3jSnZ/WqekvxAZWBMBtO7jEVQKzp5Z3q4YTYcfsD6FQ6WsmGvdYFXkumKAXE3Fgq8BUBGvtA+erUjKKir4tkwiipWnVgakO6iXzq9YpwKK21pRXiqIbyrpWul3fjw==|920
+}//A2UGcZI7VUsAFOQUk5k5Hx5ea85DdgGYcsutG+OFmCHcJMfOT8LroDEnu0fyQ60QK4XsDTa7tT7aQkQ05X8OVC6CD4hALty45O43oFZvK8JZOXCYwDzUoeQExYWFsTXy06A+0SSJov7rU8aBKyAC0E1tAMiQKqneBDAh/XBf35345pbjNcQhc/bvfTutsUeDcJO7Sdg34DemybdkWRw3BOPrmHlqRv0rg0OkrsEVdv02nQMoTbKHPqdfLWdLwX5rzJE8mhzLxjeg8rDL3thk8kF022jxgkEsy8122pS7rxiy7JacVWND06S9yENco7U4UIOUmzbDv4/hXE+Xgt5pijja5o2QYrvSL47eZE24gUInonaWlQIzoWL7YZ9V/XILqGq9nUxfYgd8Gyi1eJmLKcxefOZS8RdEab54c0nybe+sd+Xs8gWwO1SJU3Wns2ZELskKRzbyvJ1Gx213qMgW/JEGo9JVx4AwZqhDxAmZ3UrbMxPnZdaiNPHdCFYfIv0ny7Mhiv0o6fjctWhwVQUrZAxWc9aGa7LEF+xMFFUKU6yFh5MiSMjkVwAIOSHjkZOcPMDf15dzhDlr7B/yGcvcxANFP5sZaY4suyTvR2y4piWssUZdRfMqoNROVULThn6lzLJy3vMoZU3zGkc0WbX11YzYvDMjHF04NccRXVRRPZmaM8L0FyF4LrWnEJhGOuzuVmvDoyVRoM/Iylw2SpsmbrNty/YuYnJb+wgdJCGts8wZk0ujW9X5yIHT7RHWRAtz0l2MLZ2YWGzez9JxZzLY+gR72rNxUERYBRtT4XNnvxo4jM7ygA1YEJSbAW2/BqAvJKqaNSFICPtKfRPGM+AyhNIJIGsFH5oNGlVnnBmC2o0S6vCX/W/8iXWBBOiK8Np/k6R7ptrxMRqWltNnnQkI8g==|920

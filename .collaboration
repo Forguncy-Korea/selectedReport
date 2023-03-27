@@ -107,16 +107,7 @@
   },
   {
     "ModuleName": "PCPage/실적증명서 신청",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "LAPTOP-K6S99HCL\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-03-27T11:11:32.370367+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\실적증명서 신청.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "MasterPCPage/FGC_유저마스터페이지",
@@ -124,16 +115,7 @@
   },
   {
     "ModuleName": "MasterPCPage/증명서발급_마스터페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "LAPTOP-K6S99HCL\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-03-27T11:19:01.7301277+09:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "MasterPages\\증명서발급_마스터페이지.json"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "RdlReport/실적증명서",
@@ -157,16 +139,7 @@
   },
   {
     "ModuleName": "CustomLibrary",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "LAPTOP-K6S99HCL\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-03-27T11:24:15.9067203+09:00",
-    "ModuleType": 12,
-    "ToRemoveFiles": [
-      "CustomLibraries"
-    ]
+    "ModuleType": 12
   },
   {
     "ModuleName": "ShareCommand",
