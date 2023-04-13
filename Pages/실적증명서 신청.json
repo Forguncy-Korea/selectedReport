@@ -238,12 +238,12 @@
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                 "SerializeProperty": "='실적증명서 신청'!E12"
               },
-              "Id": "71b774ef-c025-40fe-81bc-1bee8256c47e"
+              "Id": "335a6c27-2c4e-442d-b233-0a15f0bfce9f"
             },
             "Params": [
               "=E12"
             ],
-            "ID": "85575424d20e483ea52b71deb2e781a4"
+            "ID": "794b8744347e417883344df2d0da0778"
           },
           {
             "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
@@ -403,7 +403,7 @@
                     ]
                   },
                   "value": "%Null%",
-                  "Id": "ee040564-b132-430f-a76a-024b046646db"
+                  "Id": "f6c9d49d-fde0-49d4-89fa-dcda86b06af6"
                 },
                 "CommandList": [
                   {
@@ -411,16 +411,14 @@
                     "MessageFormula": "거래처와 사업을 선택해주세요"
                   }
                 ],
-                "ID": "6f07c569-10c1-498e-bea4-9b21d4e8c583"
+                "ID": "a747b916-49b6-4a92-a273-7aba9a983032"
               },
               {
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.ExportActiveReportCommand, ServerDesignerCommon",
-                    "CustomName": "실적증명서",
-                    "ExportReportNameList": [
-                      "실적증명서"
-                    ],
+                    "$type": "Forguncy.Model.OpenActiveReportCommand, ServerDesignerCommon",
+                    "SessionGuid": "98286326-bfe1-4dc1-b031-b4bca17627fe",
+                    "OpenReportName": "실적증명서",
                     "PassParameters": [
                       {
                         "SourceValue": {
@@ -443,16 +441,10 @@
                         },
                         "TargetParameter": "Content"
                       }
-                    ],
-                    "IsPageBreakBefores": [
-                      false
-                    ],
-                    "ReportGaps": [
-                      "0cm"
                     ]
                   }
                 ],
-                "ID": "85bf13ab-fb61-4a8e-8f2f-b90d44154344"
+                "ID": "902737bb-d7fa-407d-bf5d-15f75f6b1815"
               }
             ]
           }
@@ -1782,4 +1774,4 @@
       "Formula": "'실적증명서 신청'!$E$45"
     }
   ]
-}//bxA+8cFBFwismy3h2xe9GKp5mfeDzFecLory5qbHIeGjf7XOqyU14kbCr+Y/NFZ9ahdnJizsIItytnPRlYuUI2zZhC42TmH5P4VAQmR2cT3pTsdso/cDIqW2k6379lKq2dYdBcn0GEfinMz10tQJ5WUHM6j21TgPuOyMM3PPx5OZkonPWBaBESC/FfeGd6USF3QaGbt0MWi4O19jtXa3R4RVYu1b1rSv0x885SLQYbows35SbA5IcV3cfl0e1Q2GSN78dN7ekwuxUaxP/XRWnDoPkyjv6XU1D4o0yZ5Z/0HhRVPzZRHXtn5ORPWW9rVOEpoXgCA3Q0PjZhpR6JLsKBFJw7WfpnX6OQ65EEgCeHM49ANtXBmNgJLnmN+cSZwsDmKS/iJUCRACTDxOz2Rfc43zAlLiglLdCv3grPbjy8r4BGKcAzWcnyG4kLoHBap8qtbvfYD9/i4y2SfHSae2Z1rwR3JwdLaV/ZWkwp7odHBXgGLCpXPIY6JH7Lcvwa19DNinnYh3TAzRUXgVVnL85PyzSiuioBua59IV+o92uM7DpNNSZA8HMH6SNqcPyNnM6ZvzDOma+XsR/9jI4aopKt4qm9EIW2Qqa+wMlqD666vPjVLTTZ2t0X2PX7wp/DPYTzbOAtst0TCSC05qiN5GmU+uqDOwBsuu1oMNQZa4txfjZTRouqkgXfMJ5qI+Ez/rzthVIKGL1H8jly1J6yT0ueyIKTBmnMKDJGiAxaJ5sCZR2CBxNAb0dbG0KG/ymVfqZAY8QraZDCqQYeF1sAdxkoyAcMrcTvWJemEhF+gT0N7f1zlG8/mdS28hhA1IZs3EfcgsLqbBKI+DkqC0dSgth4ny5nL1uqoW+ima56LpeCNT5++pECgblbB5upl6T7/xzK7Pxyc3n4IK1Cv1eQPAdQ==|920
+}//TuWomCeKiocAuy1ZOSoUH4pEQuxjGnV6z5gZG8ACKIRW2WE6t8wV3vuZ0Jvlvl4Hn+Jo9nmXy9E3YjWNALLwUc71q0XxQ4ylNwBHe+kefWyqS4nQPmdX9RSci040SQFGmxuIFOTZsSqTSjOnwlVXEGQJMcLdJFsNnR6CTfUUGs1bmAw2R48rGaovcAB391ee47ImLG0eI6b+QRGsghjwCp96wlH70KncpW4Xc5ju+b7dOmnphXn/JkCyUt68PSxBRTMwJLTB+F5BLWyOEgRONC2Jrq0ZtiTSjw4Jqa66zqCOF6+SJg5U4cFop6OQT0TJG2ESF6SGT+rFHnPm2bBYcyWYFIgiezNI8MEiLswidpD+rxz1rjxejAcY5ilQvqqtadIdlVPH6SUX+3rjTGyPM9QPB9qmIqIPjILHndWRyoq2LJQxOqlPFzH+Vns7kM3seGMR8JZsfr8zDReNuHkMstuJIml0oBs2UzJ3lvW37Qq/NBt2LW/g8S6GjFaFUTgnKw8DnOetnq9SZ70mXdi+Aptl+sNNgG/CIT1xRSp6dKYM0W6aCBK5mle6trzb15riL16Oaw2qVVLgrz++LMojXdSAgrG+qPTr3+htd5ihVeG1koIRkTz/TBXfdSZaZzVvU+3a4EoSrJVJtp4y93jhzfNJ2oZ78LFdB0VXC/bEjSs23dyTBxue/w0vhctABGS49afRSHFq21NrsYYd/KXxiFaXM5PjFukoLEFN4BNNcKEMmoP0JkVu2xraje2RG0gpz1cj8N8XEnL8A/kSLox+i0JwVLwjRPRdDrg0TdtByJ3GVabClcQ//N2vhaNuZcZFsa3ya4Kc2FLXGuGQZN9LnIazfzpLlH2VEW4yQD4RP8QNNcRALgw6xTfhpTckJtlox7hQcXJjMWxLSm7N8SN7/A==|920
